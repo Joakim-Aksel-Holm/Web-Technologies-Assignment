@@ -1,0 +1,30 @@
+﻿body{
+    background-color: dimgray;
+}
+.TopbarColor{
+    height: 50px;
+    width: auto;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.topbarTitles{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.Title{
+    font-weight: bold;
+    align-self: flex-start;
+}
+.second_title{
+
+    align-self: flex-end;
+
+}
