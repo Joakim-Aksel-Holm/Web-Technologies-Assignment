@@ -19,12 +19,7 @@
 
 
 
-.Title{
+.Title, .second_title{
     font-weight: bold;
     align-self: flex-start;
-}
-.second_title{
-
-    align-self: flex-end;
-
 }
