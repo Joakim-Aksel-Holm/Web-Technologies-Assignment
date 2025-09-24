@@ -6,14 +6,7 @@
     <link rel="stylesheet" href="Styles/global.css" />
   </head>
   <body>
-    <header class="navbar">
-      <a href="./index.html"
-        ><img class="logo" src="./assets/logo-removebg-preview.png" alt=""
-      /></a>
-      <div class="Button">
-        <a href="./Pages/Upload.html"><button>Add Movie</button></a>
-      </div>
-    </header>
+    <div id="navbar"></div>
     <div class="content">
       <div>
         <h2>MoviePicker</h2>
@@ -21,17 +14,22 @@
           Her på vores side kan du uploade dit film bibliotek og derefter stemme
           på film sammen med dinne venner
         </p>
+        <div class="Button">
+          <a href="./Pages/upload.html"><button>Add Movie</button></a>
+        </div>
         <div class="recommendations">
-            <h2>Recommendations</h2>
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
+          <h2>Recommendations</h2>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
         </div>
       </div>
     </div>
     <div class="footer">
       <p>MoviePicker &copy; 2024</p>
     </div>
+
+    <script src="/Scripts/navbar.js"></script>
   </body>
 </html>
