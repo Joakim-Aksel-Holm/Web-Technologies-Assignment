@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+}
+
+.navbar {
+  background-color: lightblue;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  padding: 20px;
+  margin-bottom: 40px;
+  display: grid;
+  justify-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px;
+}
+
+h2 {
+  text-align: left;
+}
+
+.recommendations {
+  display: flexbox;
+  justify-content: space-between;
+}
+
+.Button {
+  margin: 5px;
+}
+
+.footer {
+  background-color: lightblue;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
